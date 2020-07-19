@@ -1,0 +1,176 @@
+body,
+html {
+    background: url(../../common/Images/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+}
+#welcomeDiv {
+    position: relative;
+    width: 300px;
+    left: 31%;
+    display: inline-block;
+}
+#addingRepo {
+    position: relative;
+    width: 300px;
+}
+.rep{
+    border-color: white;
+    margin: 20px;
+    border-style: solid;
+    border-width: 2px;
+    width: 600px;
+    overflow: auto;
+}
+.content{
+    position: relative;
+    left: 10px;
+}
+
+
+#notif{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border-style: solid;
+    border-width: 2px;
+    width: 200px;
+    height: 80px;
+    background-color: #23527c;
+    visibility: hidden;
+}
+#exitBtnNotif{
+    position: relative;
+    left: 4px;
+    top: -5px;
+}
+#exitBtnNotif:hover{
+    cursor: pointer;
+    font-size: larger;
+}
+#mailbox{
+    position: absolute;
+    left: 650px;
+    top: 0;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    width: 400px;
+    height: fit-content;
+    min-height: 200px;
+    max-height: 400px;
+    overflow: auto;
+}
+
+#users{
+    border-color: white;
+    position: absolute;
+    left:1100px;
+    top: 0;
+    border-style: solid;
+    border-width: 2px;
+    width: 200px;
+    height: fit-content;
+    min-height: 200px;
+    max-height: 400px;
+    overflow: auto;
+}
+
+#center{
+    position: relative;
+}
+.headers{
+    display: inline-block;
+}
+#notificationHeader{
+    position: relative;
+    left: 480px;
+}
+#usersHeader{
+    position: relative;
+    left: 750px;
+}
+.chatbtn{
+    position: absolute;
+    left: 1105px;
+    top:210px;
+    background-color: #4cae4c;
+
+}
+.content{
+    width: 400px;
+}
+
+.mailBoxLabel{
+    text-decoration:underline;
+}
+.mailBoxLabel:hover{
+    cursor: pointer;
+}
+.header-name:hover{
+    font-size: 30px;
+    cursor:pointer;
+    text-decoration:underline;
+    color: blue;
+}
+.userName:hover{
+    background-color:#a6cff4;
+    font-size: larger;
+    cursor:pointer;
+    text-decoration:underline;
+    color: #101010;
+}
+.myName{
+    color: #101010;
+    background-color:#d43f3a;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+
+.modal-content {
+    color:black;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#logOutBtn{
+    position: relative;
+    left: 2px;
+    top: 2px;
+}
+#logOutBtn:hover{
+    background-color: palevioletred;}
+

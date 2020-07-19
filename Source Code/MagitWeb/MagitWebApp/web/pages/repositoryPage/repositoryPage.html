@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../../common/bootstrap.min.css">
+    <link rel="stylesheet" href="repositoryPage.css">
+    <script type="text/javascript" src="../../common/jquery-3.4.1.min.js"></script>
+    <script src="repoPage.js"></script>
+    <script src="../utils/Utils.js"></script>
+</head>
+<body>
+<div id="container">
+    <h2 id="repoName">&nbsp;&nbsp;repository name</h2>
+    <h4 id="notifBox">Notification Box</h4>
+    <div id="buttons" class="btn-group-vertical">
+        <!--<label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;branches&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>-->
+        <button id="allBranchesBtn" type="button" class="btn  btn-primary  btn-sm">Branches</button>
+        <button id="HeadBranchHistory" type="button" class="btn btn-primary  btn-sm">Head branch history</button>
+        <!-- <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;commits&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>-->
+        <button id="wc" type="button" class="btn btn-primary">WC</button>
+        <button id="commitBtn" type="button" class="btn btn-primary ">Commit</button>
+        <button id="wcStatus" type="button" class="btn btn-primary ">WC status</button>
+        <!--<label>&nbsp;&nbsp;&nbsp;collaboration&nbsp;&nbsp;&nbsp;&nbsp;</label>-->
+        <button disabled="true" id="prBtn" type="button" class="btn btn-primary ">All pull requests</button>
+        <button disabled="true" id="newPrBtn" type="button" class="btn btn-primary">New pull request</button>
+        <!-- <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>-->
+        <button id="backBtn" class="btn btn-primary ">Go Back</button>
+    </div>
+
+    <div id="workArea">
+    </div>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2 id="headerContent"></h2>
+            </div>
+            <div id="content" class="modal-body">
+
+            </div>
+            <div class="modal-footer">
+                <h3></h3>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div id="notif">
+</div>
+</body>
+</html>

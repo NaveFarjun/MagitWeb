@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your page</title>
+    <link rel="stylesheet" href="../../common/bootstrap.min.css">
+    <link rel="stylesheet" href="userPageCss.css">
+    <script type="text/javascript" src="../../common/jquery-3.4.1.min.js"></script>
+    <script src="../utils/Utils.js"></script>
+    <script src="UserPage.js"></script>
+</head>
+<body>
+<button id="logOutBtn" class="btn btn-danger">Logout</button>
+<div id="welcomeDiv">
+    <h1 id="welcome">Welcome Dan!</h1>
+</div>
+    <div id="addingRepo">
+        <h3>Add new repository</h3>
+        <form id="uploadForm" enctype="multipart/form-data" method="POST">
+        <input type="file" name="file">
+        <input type="submit" class="btn btn-info" value="Upload File">
+    </form>
+</div>
+<h2 class="headers">Repositories</h2>
+<h2 class="headers" id="notificationHeader">Notifications</h2>
+<h2 class="headers" id="usersHeader">Magit Users</h2>
+<div id="center">
+    <div id="repos">
+    </div>
+    <div id="mailbox">
+    </div>
+    <div id="users">
+        <div id="usersNames"></div>
+    </div>
+    <!--<button class="btn btn-info chatbtn">Start Chat!</button>-->
+</div>
+<div id="notif">
+</div>
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <span id="closeModal">&times;</span>
+        <div id="modalMelel"></div>
+    </div>
+</div>
+</body>
+</html>

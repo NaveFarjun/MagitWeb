@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MagitEngine/MagitEngine.iml" filepath="$PROJECT_DIR$/MagitEngine/MagitEngine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MagitWebApp/MagitWebApp.iml" filepath="$PROJECT_DIR$/MagitWebApp/MagitWebApp.iml" />
+    </modules>
+  </component>
+</project>

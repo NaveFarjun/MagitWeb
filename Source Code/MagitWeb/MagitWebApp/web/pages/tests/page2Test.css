@@ -1,0 +1,51 @@
+#welcomeDiv {
+    position: relative;
+    width: 300px;
+    left: 40%;
+}
+#addingRepo {
+    position: relative;
+    width: 300px;
+}
+.rep{
+    margin: 20px;
+    border-style: solid;
+    border-width: 2px;
+    width: 500px;
+    overflow: auto;
+}
+.content{
+    position: relative;
+    left: 10px;
+}
+.notif{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border-style: solid;
+    border-width: 2px;
+    width: 200px;
+    height: 80px;
+    background-color: #23527c;
+}
+.exitBtnNotif{
+    position: relative;
+    left: 4px;
+    top: -5px;
+}
+#mailbox{
+    position: absolute;
+    left: 600px;
+    top: 0;
+    border-style: solid;
+    border-width: 2px;
+    width: 400px;
+    height: fit-content;
+    min-height: 200px;
+    max-height: 400px;
+    overflow: auto;
+}
+#koko{
+    position: relative;
+
+}
